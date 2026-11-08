@@ -45,6 +45,8 @@ class Synheart < Formula
   end
 
   test do
-    assert_match "\"version\": \"#{version}\"", shell_output("#{bin}/synheart --version </dev/null")
+    # --version prints "synheart <v>" or JSON depending on the terminal and
+    # environment; the version string is in both.
+    assert_match version.to_s, shell_output("#{bin}/synheart --version </dev/null")
   end
 end
