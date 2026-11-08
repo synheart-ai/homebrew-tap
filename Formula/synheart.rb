@@ -3,28 +3,28 @@
 class Synheart < Formula
   desc "Agent guard, Synapse and SDK tooling for Synheart"
   homepage "https://synheart.ai"
-  version "0.33.0"
+  version "0.33.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://dist.synheart.ai/synheart-cli/v0.33.0/synheart_0.33.0_darwin_arm64.tar.gz"
-      sha256 "abd83c1b200ce9163ce4920833072f36d98ac53b19a241294ed5580436b62b59"
+      url "https://dist.synheart.ai/synheart-cli/v0.33.1/synheart_0.33.1_darwin_arm64.tar.gz"
+      sha256 "538f5985a40e57823557eef661310b78df6f45a3d2348138d3759b778a1dfe34"
     end
     on_intel do
-      url "https://dist.synheart.ai/synheart-cli/v0.33.0/synheart_0.33.0_darwin_amd64.tar.gz"
-      sha256 "1943b552aa4ce5b06297952dbe8b6b1697ed107caecac2d4d617cae0f5d35294"
+      url "https://dist.synheart.ai/synheart-cli/v0.33.1/synheart_0.33.1_darwin_amd64.tar.gz"
+      sha256 "3c19cc68dba53d119e8d381cbdfc7e91a1af8328171c5071a2454845b9366c91"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://dist.synheart.ai/synheart-cli/v0.33.0/synheart_0.33.0_linux_arm64.tar.gz"
-      sha256 "643d94e66a7c8658bd6b1ca52ee3f304c29a178314542599181e00fbcea783e8"
+      url "https://dist.synheart.ai/synheart-cli/v0.33.1/synheart_0.33.1_linux_arm64.tar.gz"
+      sha256 "0f4f24aa6844bbecd858b37fc995e90ab1f4488984e8a0aa75557b40601d92fc"
     end
     on_intel do
-      url "https://dist.synheart.ai/synheart-cli/v0.33.0/synheart_0.33.0_linux_amd64.tar.gz"
-      sha256 "c3c1dd5fa7e1c2d6b9874854ad730536205644407ca43198ba0eba7da33c9f5f"
+      url "https://dist.synheart.ai/synheart-cli/v0.33.1/synheart_0.33.1_linux_amd64.tar.gz"
+      sha256 "b1f2e70617e9bb400cad168e3654daf435d0aabc27589ecb425032e03f9ef4ef"
     end
   end
 
