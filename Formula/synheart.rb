@@ -3,28 +3,28 @@
 class Synheart < Formula
   desc "Developer toolkit for building on the Synheart platform"
   homepage "https://synheart.ai"
-  version "0.37.0"
+  version "0.38.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://dist.synheart.ai/synheart-cli/v0.37.0/synheart_0.37.0_darwin_arm64.tar.gz"
-      sha256 "65d6ef1c148f6f1a49873ac4ddc28b4050332abf8ed5c789a3f7bb0f4fb6b18d"
+      url "https://dist.synheart.ai/synheart-cli/v0.38.0/synheart_0.38.0_darwin_arm64.tar.gz"
+      sha256 "4a3eb3a6ae2070357156d81a575aa841af7c576093ac254b74e7fd684a7698bc"
     end
     on_intel do
-      url "https://dist.synheart.ai/synheart-cli/v0.37.0/synheart_0.37.0_darwin_amd64.tar.gz"
-      sha256 "f9d029da96af4a4bc879f04ec35080f852de8abd1a96c569bcceeae9bab05b1e"
+      url "https://dist.synheart.ai/synheart-cli/v0.38.0/synheart_0.38.0_darwin_amd64.tar.gz"
+      sha256 "b2b3a28f31b5fb879f638d8bb018adfc0a3f5fa305ff9bf038f15a05fa808e09"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://dist.synheart.ai/synheart-cli/v0.37.0/synheart_0.37.0_linux_arm64.tar.gz"
-      sha256 "faaf315fa1e93f64a10a39ce8f97fa15505e438a9f3ed266997e060102d09b82"
+      url "https://dist.synheart.ai/synheart-cli/v0.38.0/synheart_0.38.0_linux_arm64.tar.gz"
+      sha256 "d0c09ae8226b9fd7828b61ca80696a390c9584aaef4166b9daf4ac3ac06f7f6f"
     end
     on_intel do
-      url "https://dist.synheart.ai/synheart-cli/v0.37.0/synheart_0.37.0_linux_amd64.tar.gz"
-      sha256 "cdbde7a92a73f31de8bb9078dafd6f43cfb482ac5c8d24712d89b4d9dcb9c37f"
+      url "https://dist.synheart.ai/synheart-cli/v0.38.0/synheart_0.38.0_linux_amd64.tar.gz"
+      sha256 "687bc39870752260ba029901c98a6e917ffd0ce33ac9c6618aca78e25ef41822"
     end
   end
 
